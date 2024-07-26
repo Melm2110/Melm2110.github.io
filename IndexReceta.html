@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="Imagenes/icon.png"> 
+    <title>INICIO</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Young+Serif&display=swap');
+
+        body, html {
+            font-family: 'Young Serif', serif;
+            font-size: 16px;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #87CEEB;
+            color: #fff;
+            padding: 20px 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-left {
+            margin-right: auto;
+        }
+
+        .header-right {
+            margin-left: auto;
+        }
+
+        .header-left h1 {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .header-right nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .header-right nav ul li {
+            margin-left: 20px;
+        }
+
+        .header-right nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.2s ease-in-out;
+        }
+
+        .header-right nav ul li a:hover {
+            color: #ddd;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 80px auto 20px;
+        }
+
+        .receta {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #87CEEB;
+            padding: 10px 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+            color: #fff;
+        }
+
+        /* Nueva sección para IndexReceta.html */
+
+        .pagina-receta {
+            display: flex;
+            align-items: center;
+        }
+
+        .descripcion {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .descripcion h2 {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .descripcion p {
+            font-size: 30px;
+            line-height: 1.5;
+        }
+
+        .imagen {
+            flex: 1;
+            text-align: center;
+        }
+
+        .imagen img {
+        width: 800px;  /* Ancho deseado */
+        height: 500px; /* Alto deseado */
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <h1>Página de Recetas</h1>
+        </div>
+        <div class="header-right">
+            <nav>
+                <ul>
+                    <li><a href="IndexReceta.html">Inicio</a></li>
+                    <li><a href="IndexPostres.html">Postres</a></li>
+                    <li><a href="IndexComidas.html">Comidas</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container pagina-receta">
+        <div class="descripcion">
+            <h2>Bienvenidos</h2>
+            <p>¡Bienvenido a nuestra página de recetas! Aquí encontrarás deliciosas opciones para satisfacer tus gustos culinarios. Descubre nuevas recetas y disfruta de la experiencia gastronómica.</p>
+        </div>
+        <div class="imagen">
+            <img src="Imagenes/pagprin.jpg" alt="Imagen Principal">
+        </div>
+    </div>
+
+    <footer>
+        <p>Hecho Por Matias Gonzales © 2023</p>
+    </footer>
+</body>
+</html>
